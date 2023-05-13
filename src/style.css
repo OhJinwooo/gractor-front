@@ -1,0 +1,3056 @@
+.mom {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.guro {
+  position: absolute;
+  left: 30px;
+  top: 21px;
+  height: 39px;
+  width: 52px;
+}
+.header {
+  /* top */
+
+  position: absolute;
+  /* height: 80px;
+  left: 0px;
+  right: 0px;
+  top: 0px; */
+
+  /* white */
+
+  background: #ffffff;
+}
+.header-title {
+  /* 스마트도시 서비스 */
+
+  position: absolute;
+  width: 338px;
+  height: 34px;
+  left: 98px;
+  top: 23px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  /* identical to box height */
+
+  letter-spacing: -0.9375px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.center {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.header-menu1 {
+  /* 위험시설물 관리 */
+
+  width: 66px;
+  height: 20px;
+  margin-right: 40px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.header-menu2 {
+  /* 서비스 */
+
+  width: 50px;
+  height: 20px;
+  margin-right: 40px;
+  margin-top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-menu3 {
+  /* 위험시설물 관리 */
+
+  width: 82px;
+  height: 20px;
+  margin-right: 40px;
+  margin-top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+  /* theme/coolgray/coolgray80 */
+
+  color: #343a3f;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.select-bar {
+  /* Select-bar */
+
+  width: 82px;
+  height: 3px;
+
+  /* primary-dark */
+
+  background: #045b8a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.header-menu4 {
+  /* 이벤트 */
+
+  width: 50px;
+  height: 20px;
+  margin-right: 40px;
+  margin-top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-menu5 {
+  /* 시스템관리 */
+
+  width: 82px;
+  height: 20px;
+  margin-right: 40px;
+  margin-top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* .log {
+  margin-left: 32px;
+} */
+
+.header-ip {
+  /* IP: 256.23.123.89 */
+
+  position: absolute;
+  width: 98px;
+  height: 14px;
+  right: 120px;
+  top: calc(50% - 14px / 2 - 11px);
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+
+.header-sudo {
+  /* 관리자 홍길동 */
+
+  position: absolute;
+  width: 92px;
+  height: 18px;
+  right: 127px;
+  top: calc(50% - 18px / 2 + 7px);
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+
+  /* primary */
+
+  color: #027fc2;
+}
+
+.header-logout {
+  /* 로그아웃 */
+
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  right: 30px;
+  top: calc(50% - 16px / 2);
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+
+.time-service {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 8px 15px; */
+  gap: 20px;
+
+  position: absolute;
+  width: 524px;
+  height: 56px;
+  right: 365px;
+  top: 9%;
+
+  /* white */
+
+  background: #ffffff;
+  /* map-module */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+}
+
+.time-table {
+  width: 176px;
+  height: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.time {
+  /* 현재시각 */
+
+  position: absolute;
+  width: 60px;
+  height: 16px;
+  left: 15px;
+  top: 8px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+
+.moment {
+  /* 15:26:43 */
+
+  position: absolute;
+  width: 95px;
+  /* height: 23px; */
+  left: 15px;
+  top: 25px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.day {
+  /* 2021.03.26 */
+
+  position: absolute;
+  width: 71px;
+  height: 16px;
+  left: 120px;
+  top: 29px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.vector1 {
+  /* Vector 1 */
+
+  position: absolute;
+  width: 0px;
+  height: 40px;
+  top: 8px;
+  left: 211px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.Weather {
+  width: 97px;
+  height: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.weather {
+  /* 날씨 */
+
+  position: absolute;
+  height: 16px;
+  width: 28px;
+  left: 231px;
+  top: 8px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.number {
+  /* 21 */
+
+  position: absolute;
+  height: 23px;
+  width: 49px;
+  left: 231px;
+  bottom: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.symbol {
+  /* ℃ */
+
+  position: absolute;
+  width: 15px;
+  height: 18px;
+  left: 259px;
+  top: 30px;
+
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.weather-icon {
+  position: absolute;
+  font-size: 30px;
+  right: 196.77px;
+  bottom: 16.24px;
+  /* top: 28px; */
+  color: #4d5358;
+}
+
+.vector2 {
+  /* Vector 2 */
+
+  position: absolute;
+  width: 0px;
+  height: 40px;
+
+  top: 8px;
+  left: 348px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.fine-dust {
+  width: 64px;
+  height: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.pm {
+  position: absolute;
+  width: 26px;
+  height: 16px;
+  left: 368px;
+  top: 8px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.number2 {
+  /* 27 */
+
+  position: absolute;
+  width: 28px;
+  height: 23px;
+  left: 368px;
+  top: 25px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.good {
+  /* 좋음 */
+
+  position: absolute;
+  width: 26px;
+  height: 16px;
+  left: 406px;
+  top: 31px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 16px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.vector3 {
+  /* Vector 3 */
+  position: absolute;
+  width: 0px;
+  height: 40px;
+  left: 452px;
+  top: 8px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.blue-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 5px 11px; */
+  gap: 10px;
+
+  position: relative;
+  z-index: 1;
+  width: 37px;
+  height: 38px;
+  right: -75px;
+
+  background: linear-gradient(
+      315deg,
+      rgba(28, 56, 48, 0.3) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    #3e9ee2;
+  border-radius: 3px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+}
+.t-1 {
+  position: absolute;
+  z-index: 999;
+  width: 15px;
+  height: 5px;
+  top: 10px;
+  font-size: 24px;
+
+  /* theme/cyan/cyan10 */
+
+  /* color: #ffffff; */
+  background-color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.t-2 {
+  position: absolute;
+  z-index: 999;
+  width: 4px;
+  height: 20px;
+  top: 10px;
+  font-size: 24px;
+
+  /* theme/cyan/cyan10 */
+
+  /* color: #ffffff; */
+  background-color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.graph {
+  /* Rectangle 825 */
+
+  position: absolute;
+  width: 335px;
+  height: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 9%;
+  left: 1%;
+
+  /* white */
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 3px;
+}
+.service {
+  margin-top: 20px;
+  height: 3%;
+}
+.service-text {
+  /* 스마트 도시 서비스 주요 현황 */
+
+  height: 20px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.smart-bar1 {
+  position: absolute;
+  height: 2px;
+  left: 20px;
+  right: 32px;
+  top: 45px;
+  bottom: 923px;
+
+  /* primary-light */
+
+  background: #349fda;
+  opacity: 0.5;
+}
+.smart-bar2 {
+  /* Rectangle 20 */
+
+  position: absolute;
+  height: 2px;
+  left: 20px;
+  right: 100px;
+  top: 45px;
+  bottom: 923px;
+
+  /* primary */
+
+  background: #027fc2;
+}
+.smart-bar3 {
+  /* Rectangle 19 */
+
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 305px;
+  right: 20px;
+  top: 45px;
+  bottom: 923px;
+
+  /* primary-dark */
+
+  background: #045b8a;
+}
+
+.service-box1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 295px;
+  height: 265px;
+  left: 20px;
+  right: 20px;
+  top: 67px;
+  bottom: 638px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px solid #dde1e6;
+  border-radius: 3px;
+}
+
+.dangerous {
+  /* 위험시설물 예・경보 알림 서비스 */
+
+  position: absolute;
+  /* width: 183px; */
+  height: 16px;
+  /* left: 56px; */
+  top: 15px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.chartContainer {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  /* left: 0px; */
+  right: -2px;
+  top: 63px;
+}
+.service-box2 {
+  /* Rectangle 732 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 295px;
+  height: 265px;
+  left: 20px;
+  top: 352px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px solid #dde1e6;
+  border-radius: 3px;
+}
+.sir {
+  /* 홀몸어르신 안심 서비스 */
+
+  position: absolute;
+  /* width: 135px; */
+  height: 16px;
+  /* left: 15px; */
+  top: 15px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.service-box3 {
+  /* Rectangle 732 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 295px;
+  height: 265px;
+  left: 20px;
+  top: 637px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px solid #dde1e6;
+  border-radius: 3px;
+}
+.children {
+  position: absolute;
+  height: 16px;
+  top: 15px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.graph-point1 {
+  /* Ellipse 144 */
+
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 145px;
+  bottom: 19px;
+  /* primary */
+
+  background: #027fc2;
+  transform: rotate(-90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.graph-point2 {
+  /* Ellipse 136 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 21.5px;
+  left: 165px;
+
+  /* theme/coolgray/coolgray30 */
+
+  background: #c1c7cd;
+  transform: rotate(-90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+
+.graph-point3 {
+  /* Ellipse 136 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 21.5px;
+  left: 180px;
+
+  /* theme/coolgray/coolgray30 */
+
+  background: #c1c7cd;
+  transform: rotate(-90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.current-location {
+  /* Frame 993 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 10px 20px; */
+  gap: 5px;
+
+  position: absolute;
+  width: 120px;
+  height: 36px;
+  left: 365px;
+  top: 95px;
+
+  /* white */
+
+  background: #ffffff;
+  /* map-module */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+}
+.zone {
+  /* 구로구 */
+  position: absolute;
+  width: 43px;
+  height: 16px;
+  left: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.vector-175 {
+  /* Vector 175 */
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  left: 63px;
+  bottom: 18px;
+  font-size: 13px;
+  /* theme/coolgray/coolgray40 */
+
+  /* border: 1px solid #a2a9b0; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.entire {
+  /* 전체 */
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  right: 20px;
+  /* left: 74px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.notification {
+  /* Rectangle 825 */
+
+  position: absolute;
+  width: 335px;
+  height: 48%;
+  right: 1%;
+  top: 9%;
+
+  /* white */
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 3px;
+}
+
+.rectangle-839 {
+  /* Rectangle 839 */
+
+  position: absolute;
+  width: 5px;
+  height: 44px;
+  left: 10px;
+  top: 16px;
+
+  /* primary */
+
+  background: #027fc2;
+}
+
+.location {
+  position: absolute;
+  height: 20px;
+  left: 20px;
+  top: 18px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* theme/coolgray/coolgray80 */
+
+  color: #343a3f;
+}
+.address {
+  position: absolute;
+  height: 15px;
+  left: 20px;
+  top: 43px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.vector-182 {
+  /* Vector 182 */
+
+  position: absolute;
+  width: 335px;
+  height: 0px;
+  top: 68px;
+
+  /* primary-light */
+
+  border: 1px solid #349fda;
+}
+.installation {
+  display: flex;
+  align-items: center;
+  height: 7%;
+  margin-top: 5px;
+}
+.installation-point {
+  /* Ellipse 182 */
+
+  left: 20px;
+  top: 90px;
+  right: 309px;
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+
+  /* primary */
+
+  background: #027fc2;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.installation-location {
+  /* 설치위치 */
+  width: 59px;
+  height: 16px;
+  left: 31px;
+  top: 85px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.coordinates {
+  height: 62%;
+  width: 100%;
+  padding: 20px;
+}
+.latitude {
+  display: flex;
+  height: 8%;
+  margin-top: 5px;
+  align-items: center;
+}
+.latitude-box {
+  /* Frame 1014 */
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* white */
+  width: 48px;
+  height: 100%;
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 10.5px;
+}
+.latitude-line {
+  /* theme/coolgray/coolgray30 */
+  width: 57px;
+  height: 2px;
+  background: #c1c7cd;
+}
+.latitude-number-box {
+  /* Frame 1017 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 158px;
+  height: 100%;
+  /* theme/coolgray/coolgray10 */
+
+  background: #f2f4f8;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 10.5px;
+}
+.latitude-text {
+  /* 위도 */
+
+  /* position: absolute; */
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.latitude-number {
+  /* 37.49999581324621 */
+
+  /* position: absolute; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  /* theme/coolgray/coolgray80 */
+
+  color: #343a3f;
+}
+.longitude {
+  display: flex;
+  height: 8%;
+  margin-top: 5px;
+  align-items: center;
+}
+.longitude-line {
+  /* theme/coolgray/coolgray30 */
+  width: 57px;
+  height: 2px;
+  background: #c1c7cd;
+}
+.longitude-box {
+  /* Frame 1014 */
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* white */
+  width: 48px;
+  height: 100%;
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 10.5px;
+}
+.longitude-number-box {
+  /* Frame 1017 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 166px;
+  height: 100%;
+  /* theme/coolgray/coolgray10 */
+
+  background: #f2f4f8;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 10.5px;
+}
+.longitude-text {
+  /* 위도 */
+
+  /* position: absolute; */
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.longitude-number {
+  /* 37.49999581324621 */
+
+  /* position: absolute; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  /* theme/coolgray/coolgray80 */
+
+  color: #343a3f;
+}
+.height {
+  display: flex;
+  height: 8%;
+  margin-top: 5px;
+  align-items: center;
+}
+.height-line {
+  /* theme/coolgray/coolgray30 */
+  width: 37px;
+  height: 2px;
+  background: #c1c7cd;
+}
+.height-box {
+  /* Frame 1014 */
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* white */
+  width: 68px;
+  height: 100%;
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 10.5px;
+}
+.height-number-box {
+  /* Frame 1017 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 57px;
+  height: 100%;
+  /* theme/coolgray/coolgray10 */
+
+  background: #f2f4f8;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 10.5px;
+}
+.height-text {
+  /* 위도 */
+
+  /* position: absolute; */
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.height-number {
+  /* 37.49999581324621 */
+
+  /* position: absolute; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  /* theme/coolgray/coolgray80 */
+
+  color: #343a3f;
+}
+.device {
+  display: flex;
+  align-items: center;
+  height: 7%;
+  width: 50%;
+  margin-top: 25px;
+}
+.device-point {
+  /* Ellipse 182 */
+
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+  /* theme/coolgray/coolgray70 */
+
+  background: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.device-text {
+  width: 120px;
+  height: 16px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.device-box1 {
+  /* Rectangle 846 */
+
+  box-sizing: border-box;
+
+  height: 115px;
+  width: 100%;
+
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px solid #dde1e6;
+  border-radius: 3px;
+}
+.device-box {
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+  height: 28px;
+}
+.device-title1 {
+  /* 단말 명칭 */
+  width: 110px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.device-desc1 {
+  /* OOO정보통신 */
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.vector-183 {
+  /* Vector 183 */
+
+  width: 100%;
+  height: 0px;
+
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px dashed #dde1e6;
+}
+.device-title2 {
+  /* 설치일 */
+
+  position: absolute;
+  height: 15px;
+  left: 47px;
+  top: 277px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.device-desc2 {
+  /* 2018.11.25 */
+
+  position: absolute;
+  height: 15px;
+  left: 150px;
+  top: 277px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.vector-184 {
+  /* Vector 184 */
+
+  position: absolute;
+  width: 280px;
+  height: 0px;
+  left: 30px;
+  top: 296px;
+
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px dashed #dde1e6;
+}
+.device-title3 {
+  /* 단말 운영상태 */
+
+  position: absolute;
+  height: 15px;
+  left: 47px;
+  top: 304px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.device-desc3 {
+  /* 정상 */
+
+  position: absolute;
+  height: 15px;
+  left: 150px;
+  top: 304px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.vector-185 {
+  /* Vector 185 */
+
+  position: absolute;
+  width: 280px;
+  height: 0px;
+  left: 30px;
+  top: 323px;
+
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px dashed #dde1e6;
+}
+.device-title4 {
+  /* 단말 통신상태 */
+
+  position: absolute;
+  height: 15px;
+  left: 47px;
+  top: 331px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.device-desc4 {
+  /* 정상 */
+
+  position: absolute;
+  height: 15px;
+  left: 150px;
+  top: 331px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray60 */
+
+  color: #697077;
+}
+.vector-177 {
+  /* Vector 177 */
+
+  width: 100%;
+  height: 0px;
+
+  opacity: 0.5;
+  /* primary-light */
+
+  border: 1px solid #349fda;
+}
+.dvice-box2 {
+  /* Rectangle */
+
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  /* primary-light */
+
+  background: rgba(52, 159, 218, 0.1);
+  border-radius: 0px 0px 3px 3px;
+}
+.device-notification {
+  /* 교차로 알리미 서비스 */
+
+  height: 18px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+
+  /* primary */
+
+  color: #027fc2;
+}
+.device-notification-desc {
+  /* 어린이 보호 구역과 교차로 지역에 진 */
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  /* or 138% */
+
+  text-align: justify;
+
+  /* primary */
+
+  color: #027fc2;
+}
+.current {
+  /* Rectangle 822 */
+
+  position: absolute;
+  width: 335px;
+  height: 41%;
+  right: 1%;
+  bottom: 1%;
+
+  /* white */
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 3px;
+}
+
+.dangerous-terminal-state {
+  /* 대상시설 및 단말 운영현황 */
+
+  position: absolute;
+  height: 20px;
+  left: 20px;
+  top: 20px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.facility-terminal-state-title {
+  /* 대상시설 및 단말 운영현황 */
+
+  position: absolute;
+  height: 20px;
+  width: 215px;
+  left: 20px;
+  right: 121px;
+  top: 20px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.facility-bar1 {
+  position: absolute;
+  height: 2px;
+  left: 20px;
+  right: 121px;
+  top: 45px;
+  bottom: 408px;
+
+  /* primary */
+
+  background: #027fc2;
+}
+.facility-bar2 {
+  position: absolute;
+  height: 2px;
+  left: 20px;
+  right: 32px;
+  top: 45px;
+  bottom: 408px;
+
+  /* primary-light */
+
+  background: #349fda;
+  opacity: 0.5;
+}
+.facility-bar3 {
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 305px;
+  right: 20px;
+  top: 45px;
+  bottom: 408px;
+
+  /* primary-dark */
+
+  background: #045b8a;
+}
+.rectangle-840 {
+  /* Rectangle 840 */
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  top: 66px;
+  right: 177px;
+
+  /* State / st-blue04 */
+
+  background: #1479c9;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.facility-terminal-install {
+  position: absolute;
+  width: 26px;
+  height: 15px;
+  right: 150px;
+  left: 161px;
+  top: 67px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.rectangle-841 {
+  /* Rectangle 840 */
+
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  top: 66px;
+  right: 130px;
+
+  /* State / st-orange04 */
+
+  background: #ee6f17;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.facility-terminal-state {
+  /* 상태알림 */
+
+  position: absolute;
+  width: 52px;
+  height: 15px;
+  right: 79px;
+  left: 208px;
+  top: 67px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+}
+
+.rectangle-842 {
+  /* Rectangle 840 */
+
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  top: 66px;
+  right: 59px;
+
+  /* theme/purple/purple60 */
+
+  background: #8a3ffc;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.facility-terminal-event {
+  /* 이벤트 */
+
+  position: absolute;
+  width: 39px;
+  height: 15px;
+  right: 20px;
+  left: 279px;
+  top: 67px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.vector-180 {
+  /* Vector 180 */
+
+  position: absolute;
+  width: 335px;
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: 85px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px dashed #c1c7cd;
+}
+.facility-terminal {
+  position: absolute;
+  width: 290px;
+  height: 85px;
+  left: 25px;
+  right: 20px;
+  top: 102px;
+
+  /* white */
+
+  background: #ffffff;
+}
+
+.corssing-notification {
+  position: absolute;
+  width: 290px;
+  height: 85px;
+  left: 25px;
+  right: 20px;
+  top: 207px;
+
+  /* white */
+
+  background: #ffffff;
+}
+
+.right-notification {
+  position: absolute;
+  width: 290px;
+  height: 85px;
+  left: 25px;
+  right: 20px;
+  top: 312px;
+
+  /* white */
+
+  background: #ffffff;
+}
+.facility-terminal-notification-point {
+  /* Ellipse 182 */
+
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 0px;
+  top: 5px;
+
+  /* primary */
+
+  background: #027fc2;
+
+  border-radius: 50%;
+}
+
+.facility-terminal-notification {
+  /* 위험시설물 예경보 알림 서비스 */
+
+  position: absolute;
+  width: 220px;
+  height: 16px;
+  left: 11px;
+  top: 0px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.facility {
+  /* 대상시설 */
+
+  position: absolute;
+  width: 52px;
+  height: 15px;
+  left: 20px;
+  top: 31px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.facility-install-count {
+  position: absolute;
+  width: 31px;
+  height: 21px;
+  left: 107px;
+  top: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* State / st-blue04 */
+
+  color: #1479c9;
+}
+.facility-install-count-text {
+  /* 개소 */
+
+  position: absolute;
+  width: 26px;
+  height: 15px;
+  left: 142px;
+  top: 32px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.facility-state-count {
+  position: absolute;
+  width: 11px;
+  height: 21px;
+  left: 198px;
+  top: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* State / st-orange04 */
+
+  color: #ee6f17;
+}
+.facility-event-count {
+  /* 5 */
+
+  position: absolute;
+  width: 11px;
+  height: 21px;
+  left: 260px;
+  top: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* theme/purple/purple60 */
+
+  color: #8a3ffc;
+}
+.vector-173 {
+  /* Vector 176 */
+
+  position: absolute;
+  width: 275px;
+  height: 0px;
+  left: 13px;
+  top: 52px;
+
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px solid #dde1e6;
+}
+.terminal {
+  /* 단말기 */
+
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  left: 20px;
+  top: 62px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.terminal-install-count {
+  /* 632 */
+
+  position: absolute;
+  width: 31px;
+  height: 21px;
+  left: 107px;
+  top: 59px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* State / st-blue04 */
+
+  color: #1479c9;
+}
+.terminal-install-count-text {
+  /* 개 */
+
+  position: absolute;
+  width: 12px;
+  height: 15px;
+  left: 142px;
+  top: 63px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.terminal-state-count {
+  /* 8 */
+
+  position: absolute;
+  width: 11px;
+  height: 21px;
+  left: 198px;
+  top: 59px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* State / st-orange04 */
+
+  color: #ee6f17;
+}
+.terminal-even-count {
+  /* 12 */
+
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 255px;
+  top: 59px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* theme/purple/purple60 */
+
+  color: #8a3ffc;
+}
+.vector-178 {
+  /* Vector 178 */
+
+  position: absolute;
+  width: 335px;
+  height: 0px;
+  left: 0px;
+  top: 190px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px dashed #c1c7cd;
+}
+.vector-176 {
+  /* Vector 176 */
+
+  position: absolute;
+  width: 275px;
+  height: 0px;
+  left: 13px;
+  top: 52px;
+
+  /* theme/coolgray/coolgray20 */
+
+  border: 1px solid #dde1e6;
+}
+.vector-179 {
+  /* Vector 179 */
+
+  position: absolute;
+  width: 335px;
+  height: 0px;
+  left: 0px;
+  top: 295px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px dashed #c1c7cd;
+}
+.vector-181 {
+  /* Vector 181 */
+
+  position: absolute;
+  width: 335px;
+  height: 0px;
+  left: 0px;
+  top: 400px;
+
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px dashed #c1c7cd;
+}
+.current-point1 {
+  /* Ellipse 144 */
+
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 145px;
+  bottom: 19px;
+  /* primary */
+
+  background: #027fc2;
+  transform: rotate(-90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.current-point2 {
+  /* Ellipse 136 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 21.5px;
+  left: 165px;
+
+  /* theme/coolgray/coolgray30 */
+
+  background: #c1c7cd;
+  transform: rotate(-90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+
+.current-point3 {
+  /* Ellipse 136 */
+
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 21.5px;
+  left: 180px;
+
+  /* theme/coolgray/coolgray30 */
+
+  background: #c1c7cd;
+  transform: rotate(-90deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.path {
+  /* Path */
+  position: absolute;
+  height: 196px;
+  width: 36px;
+  right: 365px;
+  top: 166px;
+  z-index: 1;
+  /* white */
+
+  background: #ffffff;
+  /* map-module */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+}
+.path-vector-1 {
+  /* Rectangle Copy 12 */
+
+  height: 2px;
+  width: 100%;
+  margin-top: 35px;
+  /* theme/coolgray/coolgray30 */
+
+  background: #c1c7cd;
+}
+.path-vector-2 {
+  /* Rectangle Copy 12 */
+
+  height: 2px;
+  width: 100%;
+  margin-top: 129px;
+  /* theme/coolgray/coolgray30 */
+
+  background: #c1c7cd;
+}
+
+.path-plus-line-1,
+.path-plus-line-2 {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 2px;
+  background-color: #697077;
+}
+.path-plus-line-1 {
+  transform: rotate(0deg);
+}
+.path-plus-line-2 {
+  transform: rotate(90deg);
+}
+.form-range {
+  position: absolute;
+  min-width: 100px;
+  right: -33px;
+  top: 90px;
+
+  transform: rotate(90deg);
+}
+
+.path-minus-line {
+  position: absolute;
+  left: 18px;
+  top: 181px;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 2px;
+  background-color: #697077;
+}
+.choice {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 10px;
+
+  position: absolute;
+  width: 686px;
+  height: 186px;
+  bottom: 0px;
+
+  /* 추가 */
+  margin: auto;
+  left: 0;
+  right: 0;
+
+  /* white */
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 5px 5px 0px 0px;
+}
+.cloes-button {
+  /* Ellipse 24 */
+
+  box-sizing: border-box;
+
+  position: relative;
+  width: 26px;
+  height: 26px;
+  left: 338px;
+  bottom: 93px;
+
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray50 */
+
+  border: 2px solid #878d96;
+
+  border-radius: 50%;
+}
+.line-1,
+.line-2 {
+  position: absolute;
+  left: 15%;
+  top: 45.9%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 2px;
+  background-color: #878d96;
+}
+.line-1 {
+  transform: rotate(45deg);
+}
+.line-2 {
+  transform: rotate(-45deg);
+}
+
+.choice-button {
+  /* play */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 6px;
+  gap: 10px;
+
+  position: absolute;
+  width: 187px;
+  height: 40px;
+  left: 872px;
+  bottom: 192px;
+  margin: auto;
+  left: 0;
+  right: 0;
+
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 30px;
+}
+.choice-button-symbol {
+  /* Path */
+
+  position: absolute;
+  left: 3.39%;
+  right: 79.66%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  /* primary */
+
+  background: #027fc2;
+  border-radius: 50%;
+}
+.choice-button-symbol-symbol {
+  /* Path */
+
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  left: 10.5px;
+  bottom: 5px;
+
+  /* border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; */
+
+  /* transform: rotate(90deg); */
+
+  /* white */
+
+  /* background: #ffffff; */
+}
+.choice-button-text {
+  /* 도시 서비스 선택 */
+
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  /* left: 46px; */
+  top: 11px;
+  right: 21px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.dangerous-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  top: 16px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 2px solid #c1c7cd;
+}
+.choice-dangerous-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 10.5px;
+  bottom: 9.5px;
+  color: gray;
+}
+.choice-dangerous-text {
+  /* 위험시설물 */
+
+  position: absolute;
+  height: 16px;
+  left: 66px;
+  top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.crossing-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 282px;
+  top: 16px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #027fc2;
+  /* theme/coolgray/coolgray30 */
+}
+.choice-crossing-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  bottom: 9.5px;
+  color: white;
+}
+.choice-crossing-text {
+  /* 스마트 교차로 알리미 */
+
+  position: absolute;
+  height: 16px;
+  right: 216px;
+  top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* primary */
+
+  color: #027fc2;
+}
+.right-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 157px;
+  top: 16px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 2px solid #c1c7cd;
+}
+.choice-right-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 11.5px;
+  bottom: 9.5px;
+  color: gray;
+  transform: rotate(-90deg);
+}
+.choice-right-text {
+  /* 우회전 알리미 */
+
+  position: absolute;
+  height: 16px;
+  /* left: 29.48%; */
+  right: 15px;
+  top: 28px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.adult-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  top: 73px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 2px solid #c1c7cd;
+}
+.choice-adult-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  bottom: 9.5px;
+  color: gray;
+}
+.choice-adult-text {
+  /* 홀몸어르신 서비스 */
+
+  position: absolute;
+  height: 16px;
+  left: 66px;
+  top: 85px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.children-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 282px;
+  top: 73px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 2px solid #c1c7cd;
+}
+.choice-children-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 6px;
+  bottom: 8.5px;
+  color: gray;
+}
+.choice-children-text {
+  /* 어린이집 알림서비스 */
+
+  position: absolute;
+  height: 16px;
+  right: 216px;
+  /* left: 320px; */
+  top: 85px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+.school-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 157px;
+  top: 73px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 2px solid #c1c7cd;
+}
+.choice-school-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 9.5px;
+  bottom: 9.5px;
+  color: gray;
+}
+.choice-school-text {
+  /* 특수학교 알림서비스 */
+
+  position: absolute;
+  height: 16px;
+  right: 15px;
+  top: 85px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.smart-point {
+  /* Oval Copy 9 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  top: 129px;
+
+  border-radius: 50%;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 2px solid #c1c7cd;
+}
+
+.choice-smart-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 10.5px;
+  bottom: 8.5px;
+  color: gray;
+}
+.choice-smart-text {
+  /* 특수학교 알림서비스 */
+
+  position: absolute;
+  height: 16px;
+  left: 66px;
+
+  top: 142px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+}
+
+.time-box {
+  /* Frame 987 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+
+  position: absolute;
+  width: 243px;
+  height: 55px;
+  right: 10px;
+  bottom: 10px;
+
+  /* theme/coolgray/coolgray10 */
+
+  background: #f2f4f8;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 3px;
+}
+.play-time-box {
+  /* Frame 985 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 0px; */
+  gap: 5px;
+
+  position: relative;
+  width: 122px;
+  height: 32px;
+  right: 61px;
+  left: 60px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.play-time {
+  /* 재생시간 */
+
+  width: 51px;
+  height: 16px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.input {
+  /* Frame 984 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 8px 15px; */
+  gap: 10px;
+
+  position: absolute;
+  width: 48px;
+  height: 32px;
+  left: 56px;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray30 */
+
+  border: 1px solid #c1c7cd;
+  border-radius: 3px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.minute {
+  /* 분 */
+
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  right: 61px;
+  left: 109px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray70 */
+
+  color: #4d5358;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.storage {
+  /* Frame 983 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 8px 10px; */
+  gap: 10px;
+
+  position: absolute;
+  width: 46px;
+  height: 32px;
+  /* left: 187px; */
+  right: 10px;
+  /* white */
+
+  background: #ffffff;
+  /* theme/coolgray/coolgray40 */
+
+  border: 1px solid #a2a9b0;
+  border-radius: 3px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.storage-text {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 10px;
+  right: 10px;
+  top: 8px;
+  bottom: 8px;
+
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* theme/coolgray/coolgray40 */
+
+  color: #a2a9b0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
