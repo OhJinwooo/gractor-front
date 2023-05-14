@@ -92,7 +92,7 @@ export default defineComponent({
   },
   mounted() {
     axios
-      .get("http://localhost:8000/api/device")
+      .get(process.env.HTTPHOST + process.env.PORT + "/api/device")
       .then((response) => {
         this.deviceInfo = response.data;
       })

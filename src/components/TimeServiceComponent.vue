@@ -51,7 +51,7 @@ export default defineComponent({
   },
   mounted() {
     axios
-      .get("http://localhost:8000/api/time")
+      .get(process.env.HTTPHOST + process.env.PORT + "/api/time")
       .then((response) => {
         this.timeInfo = response.data;
 
