@@ -8,14 +8,17 @@ module.exports = defineConfig({
 
 module.exports = {
   configureWebpack: {
+    devServer: {
+      host: "0.0.0.0",
+      // host: "test.gractor.com",
+      // proxy: "http://localhost:8000",
+      allowedHosts: "all",
+    },
     plugins: [
       new webpack.ProvidePlugin({
         kakao: "kakao",
       }),
       new Dotenv(),
     ],
-  },
-  devServer: {
-    host: "0.0.0.0",
   },
 };
