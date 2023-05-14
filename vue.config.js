@@ -15,4 +15,7 @@ module.exports = {
       new Dotenv(),
     ],
   },
+  devServer: {
+    host: "0.0.0.0",
+  },
 };
